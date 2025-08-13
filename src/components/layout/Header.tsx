@@ -15,7 +15,7 @@ export const Header = () => {
     <header className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link to="/" className="flex items-center gap-2">
-          <div className="h-8 w-8 rounded-md bg-gradient-hero shadow-glow" aria-hidden />
+          <img className="h-8 w-8 rounded-md" src="sportify.ico" alt="" />
           <span className="text-lg font-bold">Sportify</span>
         </Link>
 
